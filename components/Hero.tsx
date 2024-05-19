@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-           Bonjour, c'est Hugues Frantz developeur, juriste et artiste basé à Lyon 
+           Bonjour, Hugues Frantz developeur, juriste et artiste residant en France 
           </p>
 
           <a href="#about">
