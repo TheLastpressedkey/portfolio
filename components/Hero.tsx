@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+           Bonjour, c'est Hugues Frantz developeur, juriste et artiste basé à Lyon 
           </p>
 
           <a href="#about">
