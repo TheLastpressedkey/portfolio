@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "CRM - Energies Propres de France",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/crm.svg",
+    img: "/eepf.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
