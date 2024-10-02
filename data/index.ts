@@ -88,9 +88,9 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Gallery 2.0 @kvption",
+    des: "Web galerie of artA REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    img: "/kvption.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
