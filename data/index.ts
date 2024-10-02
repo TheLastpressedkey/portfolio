@@ -165,7 +165,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "/vfp-consult.com/",
+    link: "https://apps.huguesfrantz.com/",
   },
   {
     id: 2,
