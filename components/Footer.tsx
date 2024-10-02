@@ -16,11 +16,11 @@ const Footer = () => {
       </div>
 
 <div className="flex flex-col items-center">
-  <h1 className="heading lg:max-w-[45vw]">
+  <h1 className="heading lg:max-w-\[45vw\]">
     Prêt à innover et transformer vos idées en projets concrets ?
   </h1>
   <p className="text-white-200 md:mt-10 my-5 text-center">
-    Étudiant en Master Management de l'Innovation et de la Propriété Intellectuelle, je suis à la recherche d'un stage pour mettre mes compétences au service de vos projets. Parlons de la façon dont je peux contribuer à votre réussite.
+    Étudiant en Master Management de l&apos;Innovation et de la Propriété Intellectuelle, je suis à la recherche d&apos;un stage pour mettre mes compétences au service de vos projets. Parlons de la façon dont je peux contribuer à votre réussite.
   </p>
   <a href="mailto:hello@huguesfrantz.com">
     <MagicButton
@@ -30,6 +30,7 @@ const Footer = () => {
     />
   </a>
 </div>
+
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
