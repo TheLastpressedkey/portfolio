@@ -192,6 +192,13 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
+    {
+    id: 4,
+    title: "Développeur Freelance Fullstack",
+    desc: "Conception et développement d'applications web et mobiles complètes, de la phase de conception à la mise en production, en utilisant des technologies frontend et backend.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
 ];
 
 export const socialMedia = [
