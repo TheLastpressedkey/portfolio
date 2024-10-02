@@ -128,12 +128,6 @@ export const companies = [
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
-    {
-    id: 6,
-    name: "php.",
-    img: "/php.svg",
-    nameImg: "/php.svg",
-  },
 ];
 
 export const workExperience = [
