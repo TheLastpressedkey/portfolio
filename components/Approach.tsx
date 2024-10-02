@@ -10,7 +10,9 @@ const Approach = () => {
   <h1 className="heading">
     Mon <span className="text-purple">Approche Design Thinking</span>
   </h1>
-  <p className="subheading text-gray-600">Empathie, Définition, Idéation, Prototypage, Test</p>
+    <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+        Empathie, Définition, Idéation, Prototypage, Test
+        </p>
   <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
     
     {/* Phase 1: Compréhension & Définition */}
