@@ -20,7 +20,7 @@ const Footer = () => {
     Prêt à innover et transformer vos idées en projets concrets ?
   </h1>
   <p className="text-white-200 md:mt-10 my-5 text-center">
-    Étudiant en Master Management de l&apos;Innovation et de la Propriété Intellectuelle, je suis à la recherche d&apos;un stage pour mettre mes compétences au service de vos projets. Parlons de la façon dont je peux contribuer à votre réussite.
+    Je suis à la recherche d&apos;un stage pour mettre mes compétences au service de vos projets. Parlons de la façon dont je peux contribuer à votre réussite.
   </p>
   <a href="mailto:hello@huguesfrantz.com">
     <MagicButton
