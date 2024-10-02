@@ -5,19 +5,22 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-  <section className="w-full py-20">
+    
+ <section className="w-full py-20">
   <h1 className="heading">
     Mon <span className="text-purple">Approche Design Thinking</span>
   </h1>
+  <p className="subheading text-gray-600">Empathie, Définition, Idéation, Prototypage, Test</p>
   <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
     
-    {/* Empathize Stage */}
+    {/* Phase 1: Compréhension & Définition */}
     <Card
-      title="Compréhension & Empathie"
+      title="Compréhension & Définition"
       icon={<AceternityIcon order="Phase 1" />}
-      des="Nous débutons par une phase d’immersion dans vos besoins et ceux de vos utilisateurs. 
-      L'objectif est de recueillir des insights essentiels à partir d'entretiens, de recherches qualitatives et 
-      d'observations pour mieux cerner les problématiques."
+      des="Nous débutons par une phase d'immersion pour comprendre vos besoins et ceux de vos utilisateurs. 
+      Grâce à des entretiens, des recherches qualitatives et des observations, nous recueillons des insights 
+      clés. Ensuite, nous définissons clairement le problème à résoudre en prenant en compte les objectifs du projet 
+      et les besoins réels des utilisateurs."
     >
       <CanvasRevealEffect
         animationSpeed={5.1}
@@ -25,29 +28,13 @@ const Approach = () => {
       />
     </Card>
 
-    {/* Define Stage */}
-    <Card
-      title="Définition du Problème"
-      icon={<AceternityIcon order="Phase 2" />}
-      des="Avec les informations recueillies, nous définissons clairement le problème 
-      à résoudre en prenant en compte les besoins réels des utilisateurs et les objectifs du projet. 
-      Cette étape est cruciale pour orienter la suite du processus."
-    >
-      <CanvasRevealEffect
-        animationSpeed={3}
-        containerClassName="bg-indigo-900 rounded-3xl overflow-hidden"
-        colors={[[121, 134, 203]]}
-        dotSize={2}
-      />
-    </Card>
-
-    {/* Ideate Stage */}
+    {/* Phase 2: Idéation */}
     <Card
       title="Idéation & Brainstorming"
-      icon={<AceternityIcon order="Phase 3" />}
-      des="Ensemble, nous générons des idées novatrices pour répondre aux problèmes identifiés. 
-      Cette phase se base sur des méthodes créatives comme le brainstorming pour explorer des solutions 
-      variées avant de choisir celles qui seront développées."
+      icon={<AceternityIcon order="Phase 2" />}
+      des="Nous générons des idées innovantes pour répondre aux problèmes identifiés. Cette phase repose sur des 
+      méthodes créatives telles que le brainstorming, afin d'explorer un large éventail de solutions avant de choisir celles qui 
+      seront développées."
     >
       <CanvasRevealEffect
         animationSpeed={3}
@@ -56,28 +43,13 @@ const Approach = () => {
       />
     </Card>
 
-    {/* Prototype Stage */}
+    {/* Phase 3: Prototypage, Test & Lancement */}
     <Card
-      title="Prototypage & Test"
-      icon={<AceternityIcon order="Phase 4" />}
-      des="Nous donnons vie aux meilleures idées sous forme de prototypes. 
-      Ces versions préliminaires permettent de tester les concepts et de recueillir les retours 
-      des utilisateurs afin d’améliorer continuellement le design et les fonctionnalités."
-    >
-      <CanvasRevealEffect
-        animationSpeed={3}
-        containerClassName="bg-orange-600 rounded-3xl overflow-hidden"
-        colors={[[255, 183, 77]]}
-      />
-    </Card>
-
-    {/* Test Stage */}
-    <Card
-      title="Tests & Lancements"
-      icon={<AceternityIcon order="Phase 5" />}
-      des="Enfin, nous testons rigoureusement le produit final avec les utilisateurs et effectuons 
-      les ajustements nécessaires avant le lancement officiel. Cette étape garantit que la solution finale 
-      répond pleinement aux besoins identifiés."
+      title="Prototypage, Test & Lancement"
+      icon={<AceternityIcon order="Phase 3" />}
+      des="Nous transformons les meilleures idées en prototypes fonctionnels, testés rigoureusement avec les utilisateurs pour 
+      obtenir des retours et améliorer continuellement le produit. Après les ajustements nécessaires, le produit final est prêt à être 
+      lancé, répondant pleinement aux besoins identifiés."
     >
       <CanvasRevealEffect
         animationSpeed={3}
@@ -85,6 +57,7 @@ const Approach = () => {
         colors={[[129, 199, 132]]}
       />
     </Card>
+
   </div>
 </section>
 
