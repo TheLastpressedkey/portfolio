@@ -78,35 +78,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "En tant que responsable de stage, j&apos;ai eu l&apos;occasion de travailler avec Hugues pendant 3 ans sur des missions de business development de mon entreprise. Hugues a su concilier ses acquis théoriques aux activités de mon entreprise pour faire un diagnostic de notre activité, identifier les leviers d&apos;optimisation et proposer des solutions adaptées à nos besoins de digitalisation. Son approche structurée et son efficacité ont permis de fluidifier nos opérations.",
+    name: "David Maman",
+    title: "CEO Energies Propres de France",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "J&apos;ai eu l&apos;occasion d&apos;être le responsable de Hugues à l&apos;occasion de ses missions de reporting IT et gestion de projet au sein de Casino France. Il a fait preuve d&apos;une grande autonomie et d&apos;un sens de l&apos;organisation exemplaire. Sa capacité à gérer des projets complexes tout en respectant les délais et les contraintes techniques a été un atout majeur pour l&apos;équipe.",
+    name: "Jean Bernard ESTIENNY",
+    title: "Directeur travaux et maintenance Distribution Casino France",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "En tant qu&apos;étudiant en Master 1 Management de l&apos;Innovation, Hugues a montré une réelle capacité à innover et à mener des projets complexes. Sa curiosité, son dynamisme et son approche analytique font de lui un atout majeur dans n&apos;importe quelle équipe. Il a su allier théorie et pratique avec rigueur et créativité.",
+    name: "Judith Favereau",
+    title: "Maître de conférences, Responsable master 1 Management innovation Université Lyon 2",
   },
 ];
+
 
 export const companies = [
   {
