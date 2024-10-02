@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "VFP - Consult",
     des: "Site web pour le cabinet de conseil stratégique VFP consulting",
-    img: "/vfp.svg",
+    img: "/vfpnew.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
