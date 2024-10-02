@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-           Bonjour, je suis Hugues Frantz developeur, juriste et artiste residant en France. 
+           Bonjour, je suis Hugues Frantz etudiant en master management de l'innovation et de la propriété intellecutelle, developeur, juriste et artiste residant à lyon. 
           </p>
 
           <a href="#about">
