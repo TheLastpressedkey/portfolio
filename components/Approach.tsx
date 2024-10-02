@@ -5,63 +5,89 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
-      <h1 className="heading">
-        Mon <span className="text-purple">approche</span>
-      </h1>
-      {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        {/* add des prop */}
-        <Card
-          title="Planification & Stratégie"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="Nous collaborerons pour définir les objectifs de votre site web, 
-          son public cible et ses fonctionnalités clés. Nous discuterons de la 
-          structure du site, de la navigation et des besoins en contenu."
-        >
-          <CanvasRevealEffect
-            animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
-          />
-        </Card>
-        <Card
-          title="Développement & Mise à Jour"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Une fois le plan approuvé, je commence le développement en vous 
-          tenant informé à chaque étape. De la maquette initiale au code finalisé, 
-          je vous tiens au courant de l'avancement."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
-            colors={[
-              // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
-            ]}
-            dotSize={2}
-          />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
-        </Card>
-        <Card
-          title="Finalisation & Lancement"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="C'est ici que la magie opère ! Basé sur le design approuvé, 
-          je traduis tout en code fonctionnel pour construire votre site web 
-          de A à Z."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
-          />
-        </Card>
-      </div>
-    </section>
+  <section className="w-full py-20">
+  <h1 className="heading">
+    Mon <span className="text-purple">Approche Design Thinking</span>
+  </h1>
+  <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+    
+    {/* Empathize Stage */}
+    <Card
+      title="Compréhension & Empathie"
+      icon={<AceternityIcon order="Phase 1" />}
+      des="Nous débutons par une phase d’immersion dans vos besoins et ceux de vos utilisateurs. 
+      L'objectif est de recueillir des insights essentiels à partir d'entretiens, de recherches qualitatives et 
+      d'observations pour mieux cerner les problématiques."
+    >
+      <CanvasRevealEffect
+        animationSpeed={5.1}
+        containerClassName="bg-blue-900 rounded-3xl overflow-hidden"
+      />
+    </Card>
+
+    {/* Define Stage */}
+    <Card
+      title="Définition du Problème"
+      icon={<AceternityIcon order="Phase 2" />}
+      des="Avec les informations recueillies, nous définissons clairement le problème 
+      à résoudre en prenant en compte les besoins réels des utilisateurs et les objectifs du projet. 
+      Cette étape est cruciale pour orienter la suite du processus."
+    >
+      <CanvasRevealEffect
+        animationSpeed={3}
+        containerClassName="bg-indigo-900 rounded-3xl overflow-hidden"
+        colors={[[121, 134, 203]]}
+        dotSize={2}
+      />
+    </Card>
+
+    {/* Ideate Stage */}
+    <Card
+      title="Idéation & Brainstorming"
+      icon={<AceternityIcon order="Phase 3" />}
+      des="Ensemble, nous générons des idées novatrices pour répondre aux problèmes identifiés. 
+      Cette phase se base sur des méthodes créatives comme le brainstorming pour explorer des solutions 
+      variées avant de choisir celles qui seront développées."
+    >
+      <CanvasRevealEffect
+        animationSpeed={3}
+        containerClassName="bg-yellow-600 rounded-3xl overflow-hidden"
+        colors={[[255, 241, 118]]}
+      />
+    </Card>
+
+    {/* Prototype Stage */}
+    <Card
+      title="Prototypage & Test"
+      icon={<AceternityIcon order="Phase 4" />}
+      des="Nous donnons vie aux meilleures idées sous forme de prototypes. 
+      Ces versions préliminaires permettent de tester les concepts et de recueillir les retours 
+      des utilisateurs afin d’améliorer continuellement le design et les fonctionnalités."
+    >
+      <CanvasRevealEffect
+        animationSpeed={3}
+        containerClassName="bg-orange-600 rounded-3xl overflow-hidden"
+        colors={[[255, 183, 77]]}
+      />
+    </Card>
+
+    {/* Test Stage */}
+    <Card
+      title="Tests & Lancements"
+      icon={<AceternityIcon order="Phase 5" />}
+      des="Enfin, nous testons rigoureusement le produit final avec les utilisateurs et effectuons 
+      les ajustements nécessaires avant le lancement officiel. Cette étape garantit que la solution finale 
+      répond pleinement aux besoins identifiés."
+    >
+      <CanvasRevealEffect
+        animationSpeed={3}
+        containerClassName="bg-green-600 rounded-3xl overflow-hidden"
+        colors={[[129, 199, 132]]}
+      />
+    </Card>
+  </div>
+</section>
+
   );
 };
 
