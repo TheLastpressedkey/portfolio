@@ -132,7 +132,7 @@ export const companies = [
     id: 6,
     name: "php.",
     img: "/php.svg",
-    nameImg: "/dockerName.svg",
+    nameImg: "/php.svg",
   },
 ];
 
