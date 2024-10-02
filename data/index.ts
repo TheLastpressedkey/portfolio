@@ -73,36 +73,37 @@ export const projects = [
   {
     id: 1,
     title: "Blog personnel",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Découvrez mon espace personnel où je partage des articles sur l'innovation, la technologie et mes réflexions sur l'impact des nouvelles tendances.",
     img: "/bs.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/apps.huguesfrantz.com/",
   },
-  {
-    id: 2,
-    title: "CRM - Energies Propres de France",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/eepf.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
+{
+  id: 2,
+  title: "CRM - Energies Propres de France",
+  des: "CRM conçu sur mesure lors de mon stage de Master pour Energies Propres de France. Cette plateforme optimise les processus internes, facilite la gestion des équipes, et centralise les opérations de prospection et marketing grâce à une interface intuitive et des fonctionnalités sur mesure.",
+  img: "/eepf.svg",
+  iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+  link: "/crm.energie-epf.fr/v1/index.php/signin",
+},
   {
     id: 3,
     title: "Gallery 2.0 @kvption",
-    des: "Web galerie of artA REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "Galerie d'art en ligne intégrant des fonctionnalités d'IA, un système de paiements et crédits pour les artistes et collectionneurs.",
     img: "/kvption.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "/kvption.vercel.app/",
   },
   {
     id: 4,
     title: "VFP - Consult",
-    des: "Site web pour le cabinet de conseil stratégique VFP consulting",
+    des: "Site web dynamique pour VFP Consult, un cabinet de conseil stratégique offrant des solutions de gestions des marchés publics.", 
     img: "/vfpnew.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "/vfp-consult.com/",
   },
 ];
+
 
 export const testimonials = [
   {
